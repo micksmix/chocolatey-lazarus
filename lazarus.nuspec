@@ -42,7 +42,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>http://wiki.lazarus.freepascal.org/licensing</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://sourceforge.net/p/lazarus/code/HEAD/tree/</projectSourceUrl>
     <docsUrl>http://wiki.freepascal.org/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
