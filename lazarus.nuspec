@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.6.2</version>
+    <version>1.6.4</version>
     <packageSourceUrl>https://github.com/MicksMix/chocolatey-lazarus</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <!--<owners>__REPLACE_YOUR_NAME__</owners>-->
@@ -49,7 +49,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>lazarus fpc pascal delphi ide admin</tags>
     <summary>Lazarus is a Delphi compatible cross-platform IDE for Rapid Application Development. It has variety of components ready for use and a graphical form designer to easily create complex graphical user interfaces.</summary>
-    <description>Most similar to earlier versions of the Borland Delphi, Lazarus provides a highly visual development environment for the creation of rich user interfaces, application logic, and other supporting code artifacts. Along with the customary project management features, the Lazarus IDE also provides features that includes but are not limited to:
+    <description>Lazarus is a free cross-platform visual integrated development environment (IDE) for rapid application development (RAD) using the Free Pascal compiler, which supports dialects of Object Pascal, to varying degrees. Software developers use Lazarus to create native-code console and graphical user interface (GUI) applications for the desktop, and also for mobile devices, web applications, web services, visual components and function libraries (.so, .dll, etc., for use by other programs). 
+    
+    The Free Pascal compiler supports a number of different platforms, such as Mac, Linux and Windows. Along with the customary project management features, the Lazarus IDE also provides features that includes but are not limited to:
 
  - A What You See Is What You Get (WYSIWYG) visual windows layout designer
  - An extensive set of GUI widgets or visual components such as edit boxes, buttons, dialogs, menus, etc.
@@ -65,9 +67,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
  - Automatic code formatting
  - The ability to create custom components
 
-Lazarus inherits three features from its use of the Free Pascal compiler: compile speed, execution speed, and cross-compilation. The Free Pascal compiler benefits from the Pascal language structure and the steady advancements of the Pascal compiler design (spanning several decades) to compile large applications quickly, often in a matter of seconds. When compiling reference programs for performance metrics, Lazarus produces programs that exhibit near or similar performance when compared with the same programs written in C.
-
-An application that developers create using Lazarus on one platform can potentially compile and execute on any platform for which a Free Pascal compiler exists. The usual caveats of the limitations of the target platform apply; however, for desktop applications a single source can target Mac, Linux, and Windows, usually with very little or no modification. An example application is the Lazarus IDE which itself was created using the Lazarus IDE from a single code base and is available on all major platforms and also runs on the Raspberry PI.
+Lazarus inherits three features from its use of the Free Pascal compiler: compile speed, execution speed, and cross-compilation.
     </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
