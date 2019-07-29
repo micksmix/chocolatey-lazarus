@@ -4,7 +4,7 @@
     <id>lazarus</id>
     <version>2.0.2</version>
     <packageSourceUrl>https://github.com/MicksMix/chocolatey-lazarus</packageSourceUrl>
-    <!--<owners>__REPLACE_YOUR_NAME__</owners>-->
+    <owners>micksmix</owners>
     <title>Lazarus</title>
     <authors>Lazarus Team</authors>
     <projectUrl>http://www.lazarus-ide.org/</projectUrl>
@@ -12,7 +12,7 @@
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>http://wiki.lazarus.freepascal.org/licensing</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://sourceforge.net/p/lazarus/code/HEAD/tree/</projectSourceUrl>
+    <projectSourceUrl>https://svn.freepascal.org/cgi-bin/viewvc.cgi/trunk/</projectSourceUrl>
     <docsUrl>http://wiki.freepascal.org/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->

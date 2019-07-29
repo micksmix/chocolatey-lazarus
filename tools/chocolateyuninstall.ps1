@@ -1,7 +1,4 @@
-﻿
-
-
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'Lazarus'
 $softwareName = 'Lazarus*'
