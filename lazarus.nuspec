@@ -7,8 +7,8 @@
     <owners>micksmix</owners>
     <title>Lazarus</title>
     <authors>Lazarus Team</authors>
-    <projectUrl>http://www.lazarus-ide.org/</projectUrl>
-    <iconUrl>https://raw.githack.com/micksmix/chocolatey-lazarus/master/lazarus-icon.png</iconUrl>
+    <projectUrl>https://www.lazarus-ide.org</projectUrl>
+    <iconUrl>https://a.fsdn.com/allura/p/lazarus/icon?1552026857</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>http://wiki.lazarus.freepascal.org/licensing</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
