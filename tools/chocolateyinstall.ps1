@@ -2,8 +2,8 @@
 
 $packageName= 'Lazarus'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2032%20bits/Lazarus%202.0.10/lazarus-2.0.10-fpc-3.2.0-win32.exe/download'
-$url64      = 'https://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2064%20bits/Lazarus%202.0.10/lazarus-2.0.10-fpc-3.2.0-win64.exe/download'
+$url        = 'https://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2032%20bits/Lazarus%202.0.12/lazarus-2.0.12-fpc-3.2.0-win32.exe/download'
+$url64      = 'https://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2064%20bits/Lazarus%202.0.12/lazarus-2.0.12-fpc-3.2.0-win64.exe/download'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -14,9 +14,9 @@ $packageArgs = @{
 
   softwareName  = 'Lazarus*'
 
-  checksum      = 'F42F478F8B159FC7FE192133FBFE35B00FCD36E501A73FAF012DDEE5E27E3690'
+  checksum      = 'F2FDAA7D412625AFF08B38D7F4073CCBF8724DB6C4E5678181CFDF92DE697F8B'
   checksumType  = 'sha256'
-  checksum64    = '1C0F9080123C7E44DC4E760F2D19FA315EDF372A517BB385D069EFDC6D4F5217'
+  checksum64    = '303971550AE5370BDAD4E5DAC673EF3C8F9B438F3B7010D255B9772F89629314'
   checksumType64= 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
