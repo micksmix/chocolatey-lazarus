@@ -2,8 +2,8 @@
 
 $packageName= 'Lazarus'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2064%20bits/Lazarus%203.4/lazarus-3.4-fpc-3.2.2-cross-i386-win32-win64.exe/download'
-$url64      = 'https://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2064%20bits/Lazarus%203.4/lazarus-3.4-fpc-3.2.2-win64.exe/download'
+$url        = 'https://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2064%20bits/Lazarus%203.6/lazarus-3.6-fpc-3.2.2-cross-i386-win32-win64.exe/download'
+$url64      = 'https://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2064%20bits/Lazarus%203.6/lazarus-3.6-fpc-3.2.2-win64.exe/download'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -14,9 +14,9 @@ $packageArgs = @{
 
   softwareName  = 'Lazarus*'
 
-  checksum      = 'a481dd2c00780da6663371d1f92bbec08bba284d35d3c508426ef4544c8c448b'
+  checksum      = '6587ce04b8869bf22c655b0c2f0dbb4146a9e1926f8d0896c37b61fcf1b7e813'
   checksumType  = 'sha256'
-  checksum64    = '6ede48350b9890929088bd33aa441e1bf4cf813b21bc38149e3df3bbe673bbd3'
+  checksum64    = '568ec39f976d789ad4cfee75c999f1fe4fe0cbf54089a2b26d3b098b9190cc75'
   checksumType64= 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
@@ -24,6 +24,7 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
+
 
 
 
